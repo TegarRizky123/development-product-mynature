@@ -1,0 +1,84 @@
+/* # Artikel Section
+--------------------------------------------------------------*/
+.Artikel .Artikel-wrap {
+    padding-left: 10px;
+}
+
+.itemCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemCardTitle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itemCardTitle h3 {
+    max-width: 700px;
+}
+
+.detailButton {
+    color: white;
+    margin-top: 4rem;
+    background-color: #0f423e;
+    font-size: 14px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.detailButton:hover {
+    background: #ffffff;
+    color: #0f423e;
+}
+
+
+.Artikel .Artikel-item {
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 30px 10px;
+    box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: #1B5457;
+    border-radius: 10px;
+}
+
+.Artikel .Artikel-item .Artikel-img {
+    width: 130px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-right: 15px;
+    box-shadow: 0px 19px 16px 4px rgba(0, 0, 0, 0.15);
+}
+
+.Artikel .Artikel-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+}
+
+.Artikel .Artikel-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+
+
+@media (max-width: 767px) {
+    .Artikel .Artikel-wrap {
+        padding-left: 0;
+    }
+
+    .Artikel .Artikel-item {
+        padding: 30px;
+        margin: 15px;
+    }
+
+    .Artikel .Artikel-item .Artikel-img {
+        position: static;
+        left: auto;
+    }
+}
